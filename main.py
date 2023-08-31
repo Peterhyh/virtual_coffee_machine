@@ -65,7 +65,6 @@ def subtract_ingredients(used_ingredients, inventory):
     
 
 while is_on:
-    print(resources)
     user_selection = input(
         'What would you like? (espresso/latte/cappuccino): ')
     if user_selection == 'off':
