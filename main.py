@@ -59,9 +59,9 @@ def check_transaction(user_payment, drink_cost):
         return True
     
 def subtract_ingredients(used_ingredients, inventory):
-    for ingredient in inventory:
-        remaining = inventory[ingredient] - used_ingredients[ingredient]
-        inventory[ingredient] = remaining
+    for item in inventory:
+        remaining = inventory[item] - used_ingredients[item]
+        inventory[item] = remaining
     
 
 while is_on:
